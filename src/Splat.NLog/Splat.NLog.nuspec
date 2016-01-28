@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata>
-    <id>Splat.Log4Net</id>
+    <id>Splat.NLog</id>
     <version>$version$</version>
     <title>Splat NLog</title>
     <authors>dhgmssolutions dpvreony</authors>
