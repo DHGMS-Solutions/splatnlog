@@ -1,4 +1,4 @@
-# splatlog4net
+# splatnlog
 
 Simple Integration of Splat logging to NLog. Based on upon old code for ReactiveUI for logging to NLog which is now no longer in Splat or ReactiveUI
 
