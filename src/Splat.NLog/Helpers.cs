@@ -2,7 +2,7 @@
 {
     public static class Helpers
     {
-        public static void UseLog4Net()
+        public static void UseNLog()
         {
             var funcLogManager = new FuncLogManager(type =>
             {
