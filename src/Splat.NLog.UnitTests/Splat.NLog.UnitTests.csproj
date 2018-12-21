@@ -9,7 +9,7 @@
     <PackageId>Splat.NLog.UnitTests</PackageId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="NLog" Version="4.5.0" />
+    <PackageReference Include="NLog" Version="4.5.11" />
     <PackageReference Include="Splat" Version="5.1.4" />
   </ItemGroup>
   <ItemGroup>
