@@ -1,0 +1,18 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras">
+  <PropertyGroup>
+    <TargetFrameworks>net461;uap10.0.16299;MonoAndroid80;Xamarin.iOS10;netstandard2.0</TargetFrameworks>
+    <!--Xamarin.Mac20; -->
+    <AssemblyName>Splat.NLog.UnitTests</AssemblyName>
+    <RootNamespace>Splat</RootNamespace>
+    <Authors>Paul Betts, dpvreony</Authors>
+    <Description>NLog integrations for Splat</Description>
+    <PackageId>Splat.NLog.UnitTests</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.5.0" />
+    <PackageReference Include="Splat" Version="5.1.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Splat.NLog\Splat.NLog.csproj" />
+  </ItemGroup>
+</Project>
