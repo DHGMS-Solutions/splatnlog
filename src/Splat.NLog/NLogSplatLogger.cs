@@ -57,6 +57,12 @@
             this._inner.Log(RxUitoNLogLevel(logLevel), message);
         }
 
+        public bool IsDebugEnabled => this._inner.IsDebugEnabled;
+        public bool IsInfoEnabled => this._inner.IsInfoEnabled;
+        public bool IsWarnEnabled => this._inner.IsWarnEnabled;
+        public bool IsErrorEnabled => this._inner.IsErrorEnabled;
+        public bool IsFatalEnabled => this._inner.IsFatalEnabled;
+
         /// <summary>
         /// Writes a debug message using a generic argument
         /// </summary>
