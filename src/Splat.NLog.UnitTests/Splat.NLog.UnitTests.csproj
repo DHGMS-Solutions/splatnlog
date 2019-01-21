@@ -10,7 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.5.0" />
-    <PackageReference Include="Splat" Version="5.1.4" />
+    <PackageReference Include="Splat" Version="6.1.7" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Splat.NLog\Splat.NLog.csproj" />
